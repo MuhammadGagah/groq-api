@@ -56,12 +56,12 @@ project/
 Jika Anda menggunakan repository Git, clone proyek ke direktori lokal:
 
 ```bash
-git clone https://github.com/nama-repository-anda.git
-cd nama-repository-anda
+git clone https://github.com/MuhammadGagah/groq-api.git
+cd groq-api
 ```
 
 #### **b. Konfigurasi File `.env`**
-Buat file `.env` di direktori proyek dan isi dengan nilai berikut:
+Buat file `.env` di direktori groq-api dan isi dengan nilai berikut:
 
 ```env
 FLASK_DEBUG=False
@@ -298,7 +298,7 @@ Ikuti langkah-langkah di atas untuk menjalankan aplikasi di PC/laptop Anda.
 ### **9. Tips Tambahan**
 
 #### **a. Keamanan**
-- Pastikan file `.env` tidak termasuk dalam repository Git (gunakan `.gitignore`).
+- Pastikan file `.env` tidak termasuk dalam docker image (jika anda menggunakan docker, buat file  `.dockerignore`, dan isi .env).
 - Gunakan HTTPS jika aplikasi diakses melalui internet.
 
 #### **b. Logging**

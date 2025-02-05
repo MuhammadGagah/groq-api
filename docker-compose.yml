@@ -1,0 +1,12 @@
+services:
+  groq-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: groq-api
+    container_name: groq-api-container
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    env_file:
+      - .env
