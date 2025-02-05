@@ -326,4 +326,4 @@ Ikuti langkah-langkah di atas untuk menjalankan aplikasi di PC/laptop Anda.
 ---
 
 ### **10. Thank You**
-Selamat mencoba aplikasi groq-API ini, jika menemukan bug atau ingin fix something, jangan lagu untuk create issue dan PR!
+Selamat mencoba aplikasi groq-API ini, jika menemukan bug atau ingin fix something, jangan ragu untuk create issue dan PR!
